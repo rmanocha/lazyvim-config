@@ -1,8 +1,13 @@
 return {
   "williamboman/mason.nvim",
   opts = function(_, opts)
-    table.insert(opts.ensure_installed, "prettier")
+    -- Python stuff
     table.insert(opts.ensure_installed, "pyright")
     table.insert(opts.ensure_installed, "ruff-lsp")
+
+    -- typescript stuff
+    table.insert(opts.ensure_installed, "prettier")
+    table.insert(opts.ensure_installed, "typescript-language-server")
+    table.insert(opts.ensure_installed, "eslint_d")
   end,
 }

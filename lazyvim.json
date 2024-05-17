@@ -1,9 +1,10 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.copilot"
+    "lazyvim.plugins.extras.coding.copilot",
+    "lazyvim.plugins.extras.coding.mini-ai"
   ],
   "news": {
-    "NEWS.md": "3314"
+    "NEWS.md": "4828"
   },
   "version": 3
 }

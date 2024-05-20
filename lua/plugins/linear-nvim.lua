@@ -6,7 +6,10 @@ return {
       "nvim-telescope/telescope.nvim",
     },
     config = function()
-      require("linear-nvim").setup({ issue_regex = "[kK][aA][rR]%-%d+" })
+      require("linear-nvim").setup({
+        issue_regex = "[kK][aA][rR]%-%d+",
+        issue_fields = { "title", "description", "url", "identifier", "branchName" },
+      })
       -- require("linear-nvim").setup()
     end,
   },

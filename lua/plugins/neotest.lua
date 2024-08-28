@@ -6,6 +6,7 @@ return {
     "antoinemadec/FixCursorHold.nvim",
     "nvim-neotest/nvim-nio",
     "nvim-neotest/neotest-python",
+    "nvim-neotest/neotest-go",
   },
   keys = {
     {
@@ -74,6 +75,7 @@ return {
       -- your neotest config here
       adapters = {
         require("neotest-python"),
+        require("neotest-go"),
       },
     })
   end,

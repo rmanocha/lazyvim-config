@@ -12,6 +12,7 @@ return {
         issue_fields = { "title", "description", "url", "identifier", "branchName" },
         default_label_ids = { "aec87c80-3939-4006-b972-0b3d85cd4097" },
         log_level = "debug",
+        -- open_url_key = "<c-h>",
       })
       -- require("linear-nvim").setup()
     end,
